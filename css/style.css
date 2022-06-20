@@ -47,14 +47,13 @@ button {
 }
 
 .twitter-button {
-    background-color: white;
+    background-color: #1C9CEA;
     width: 60px;
-    transition: all 1s;
+    color: white !important;
 }
 
 .twitter-button:hover {
-    background-color: #1C9CEA;
-    color: white;
+    font-size: 19px;
 }
 
 .new-quote-button {
