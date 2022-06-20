@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/all.css">
+
+    <script src="js/all.min.js"></script>
+    <link rel="stylesheet" href="css/mediaquery.css">
+</head>
+
+<body>
+
+    <section class=" quote-container w-auto p-4 rounded m-5" id="quote-container">
+
+        <!--  quote section -->
+
+        <div class="quote-text">
+            <i class="fa-solid fa-quote-left"></i>
+            <span id="quote-text"></span>
+        </div>
+
+        <!--  Author section -->
+
+        <div class="quote-author mt-3 fs-3 fst-italic border-0 rounded text-white   ">
+            <span id="author"></span>
+        </div>
+
+        <!--  Button section -->
+
+        <div class="button-container mt-4 d-flex justify-content-between ">
+            <button class="twitter-button rounded" id="twitter-btn" title="Tweet it!"><i
+                    class="fa-brands fa-twitter"></i></button>
+            <button class="new-quote-button rounded-pill" id="newQuote-btn">New Quote</button>
+        </div>
+    </section>
+
+    <!--  Loader  -->
+    <div class="loader" id="loader"></div>
+
+
+    <script src="js/Scriot.js"></script>
+</body>
+
+</html>
